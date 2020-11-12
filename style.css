@@ -95,3 +95,10 @@ header ul li a{
     font-size: 40px;
     margin: auto;
   }
+}
+
+.BI{
+  position: absolute;
+  border: dashed;
+  margin-top: 100px;
+}
