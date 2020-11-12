@@ -101,4 +101,47 @@ header ul li a{
   position: absolute;
   border: dashed;
   margin-top: 100px;
+  padding: 50px;
+  margin-left: 20px;
+  font-weight:bold;
+}
+.CR{
+  position: absolute;
+  border: dashed;
+  margin-top: 100px;
+  padding: 50px;
+  margin-left: 280px;
+  font-weight:bold;
+}
+.CS{
+  position: absolute;
+  border: dashed;
+  margin-top: 100px;
+  padding: 50px;
+  margin-left: 550px;
+  font-weight:bold;
+}
+.DA{
+  position: absolute;
+  border: dashed;
+  margin-top: 100px;
+  padding: 50px;
+  margin-left: 800px;
+  font-weight:bold;
+}
+.GS{
+  position: absolute;
+  border: dashed;
+  margin-top: 100px;
+  padding: 50px;
+  margin-left: 1050px;
+  font-weight:bold;
+}
+.SE{
+  position: absolute;
+  border: dashed;
+  margin-top: 100px;
+  padding: 50px;
+  margin-left: 1300px;
+  font-weight:bold;
 }
