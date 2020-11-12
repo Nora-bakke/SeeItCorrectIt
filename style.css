@@ -37,6 +37,13 @@ header ul li a{
     font-size: 25px;
 }
 
+.background{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url("img/bg.jpg");
+  background-size: cover;
+}
 
 .logo img {
   float: left;
