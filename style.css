@@ -30,3 +30,14 @@ header ul li a{
     padding: 45px 180px;
     font-size: 25px;
 }
+.wrapper {
+  margin: 0 auto 0 120px;
+  width: 1000px;
+}
+
+.logo img {
+
+  float: left;
+  width: 150px;
+  height: auto;
+}
