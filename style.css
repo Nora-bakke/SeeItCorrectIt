@@ -97,51 +97,34 @@ header ul li a{
   }
 }
 
-.BI{
-  position: absolute;
-  border: dashed;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 20px;
-  font-weight:bold;
+
+.div{
+  position:absolute;
+  top: 130px;
+  height:100%;
+  width: 100%;
 }
-.CR{
-  position: absolute;
-  border: dashed;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 280px;
-  font-weight:bold;
+
+.collapsible {
+  position: relative;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
 }
-.CS{
-  position: absolute;
-  border: dashed;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 550px;
-  font-weight:bold;
+
+.active, .collapsible:hover {
+  background-color: #555;
 }
-.DA{
-  position: absolute;
-  border: dashed;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 800px;
-  font-weight:bold;
-}
-.GS{
-  position: absolute;
-  border: dashed;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 1050px;
-  font-weight:bold;
-}
-.SE{
-  position: absolute;
-  border: dashed;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 1300px;
-  font-weight:bold;
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }

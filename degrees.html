@@ -8,7 +8,7 @@
 
   <body>
     <header>
-        <div class="wrapper">
+      <div class="wrapper">
         <div class="logo">
           <img src="img/logo.png">
             </div>
@@ -18,30 +18,69 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
+<div class=div>
+    <h1>Find your fit</h1>
 
-    <div class="BI">
-      <p>BUSINESS &</p>
-      <p>INNOVATION</p>
+    <p><i>Explore our degrees</i></p>
+    <button type="button" class="collapsible">Buisness & Innovation</button>
+    <div class="content">
+      <p>+Buisness Technology</p>
+      <p>+Technology Innovation (MS)</p>
+      <p>+Technology Leadership (MS)</p>
+      <p>+Technology Studies</p>
     </div>
-    <div class="CR">
-      <p>CREATION &</p>
-      <p>SIMULATION</p>
+
+    <button type="button" class="collapsible">Cyber Security</button>
+    <div class="content">
+      <p>+Cyber Security (MS)</p>
+      <p>+Network Engineering</p>
+      <p>+Network Security</p>
+      <p>+Technology Forensics</p>
     </div>
-    <div class="CS">
-      <p>CYBER</p>
-      <p>SECURITY</p>
+    <button type="button" class="collapsible">Game Studies</button>
+    <div class="content">
+      <p>+Game Art & Animation</p>
+      <p>+Game Design</p>
+      <p>+Game Production (MS)</p>
+      <p>+Game Programming</p>
     </div>
-    <div class="DA">
-      <p>DIGITAL</p>
-      <p>ARTS</p>
+    <button type="button" class="collapsible">Creation & Simulation</button>
+    <div class="content">
+      <p>+Digital Maker & Fabrication</p>
+      <p>+Human Computer Interaction</p>
+      <p>+Robotics & Embedded Systems</p>
+      <p>+Virtual Reality</p>
     </div>
-    <div class="GS">
-      <p>GAME</p>
-      <p>STUDIES</p>
+    <button type="button" class="collapsible">Digital Arts</button>
+    <div class="content">
+      <p>+Advertising Art</p>
+      <p>+Digital Marketing</p>
+      <p>+Digital Video</p>
     </div>
-    <div class="SE">
-      <p>SOFTWARE</p>
-      <p>ENGINEERING</p>
+    <button type="button" class="collapsible">Software Engineering</button>
+    <div class="content">
+      <p>+Advancing Computer Science</p>
+      <p>+Artificial Intelligence</p>
+      <p>+Data Science</p>
+      <p>+Software Engineering (MS)</p>
     </div>
+    </div>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
   </body>
 </html>
