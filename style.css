@@ -97,97 +97,12 @@ header ul li a{
   }
 }
 
-<<<<<<< HEAD
-.BI{
-  position: absolute;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 20px;
-  font-weight:bold;
-}
-.containerBI{
-  position: absolute;
-  background-color: #000;
-  width: 100%;
-  height: 100px;
-  margin-top: 300px;
-}
-
-.CR{
-  position: absolute;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 280px;
-  font-weight:bold;
-}
-.containerCR{
-  position: absolute;
-  background-color: lightblue;
-  width: 100%;
-  height: auto;
-  margin-top: 300px;
-}
-
-.CS{
-  position: absolute;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 550px;
-  font-weight:bold;
-}
-.containerCS{
-  position: absolute;
-  background-color: red;
-  width: 100%;
-  height: auto;
-  margin-top: 300px;
-}
-
-.DA{
-  position: absolute;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 800px;
-  font-weight:bold;
-}
-.containerDA{
-  position: absolute;
-  background-color: blue;
-  width: 100%;
-  height: auto;
-  margin-top: 300px;
-}
-
-.GS{
-  position: absolute;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 1050px;
-  font-weight:bold;
-}
-.containerGS{
-  position: absolute;
-  background-color: grey;
-  width: 100%;
-  height: auto;
-  margin-top: 300px;
-}
-
-.SE{
-  position: absolute;
-  margin-top: 100px;
-  padding: 50px;
-  margin-left: 1300px;
-  font-weight:bold;
-=======
-
 .div{
   position:absolute;
   top: 130px;
   height:100%;
   width: 100%;
 }
-
 .collapsible {
   position: relative;
   background-color: #777;
@@ -204,18 +119,9 @@ header ul li a{
 .active, .collapsible:hover {
   background-color: #555;
 }
-
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
->>>>>>> 63eab0242c1fc062a854db358b62de56436d1b02
-}
-.containerSE{
-  position: absolute;
-  background-color: pink;
-  width: 100%;
-  height: auto;
-  margin-top: 300px;
 }
